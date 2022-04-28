@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Interest Survey</title>
+  </head>
+  <body>
+    <form action="/action_page.php" method="get" target="_blank">
+    <div align="center">
+      <h1>Interest Survey</h1>
+      Enter your name:
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name">
+      <br><br>
+      <label for = "address">Address</label>
+      <input type="text" id="address" address = "address">
+      <br><br>
+      Tell us about yourself
+      <textarea name="Comments"cols=30 rows=4></textarea><br><br>
+      Do you like pie?
+      <input type="radio" name="exe" value=1>Yes
+      <input type="radio" name="exe" value=0>No<br><br>
+      How do you like to read about your favorite topics?
+      <!--Checkbox lets you select multiple options-->
+      <input type="checkbox"name="Books">Books
+      <input type="checkbox"name="Web">Web
+      <input type="checkbox"name="Phone">Phone Apps
+      <input type="checkbox"name="Magazines">Magazines<br><br>
+      <!--Select box lets you choose from a dropdown menu-->
+      What type of movie do you like?
+      <select name="moviepref"><option>
+        <option value=1 selected="true">comedy</option>
+        <option value=2>romance</option>
+        <option value=3>horror</option>
+        <option value=4>thriller</option>
+        <option value=5>documentary</option>
+      </option></select>
+      <br><br>
+      <input type="submit" value="Submit Form">
+    </div>
+    </form>
+    
+  </body>
+</html>
